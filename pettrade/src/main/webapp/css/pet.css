@@ -1,0 +1,1493 @@
+@charset "utf-8";
+div.score0 {
+	width: 60px;
+	height: 20px;
+	background: url(../images/review.gif) 0px -60px no-repeat;
+}
+
+div.score1 {
+	width: 60px;
+	height: 20px;
+	background: url(../images/review.gif) 0px -90px no-repeat;
+}
+
+div.score2 {
+	width: 60px;
+	height: 20px;
+	background: url(../images/review.gif) 0px -120px no-repeat;
+}
+
+div.score3 {
+	width: 60px;
+	height: 20px;
+	background: url(../images/review.gif) 0px -150px no-repeat;
+}
+
+div.score4 {
+	width: 60px;
+	height: 20px;
+	background: url(../images/review.gif) 0px -180px no-repeat;
+}
+
+div.score5 {
+	width: 60px;
+	height: 20px;
+	background: url(../images/review.gif) 0px -210px no-repeat;
+}
+
+div.score6 {
+	width: 60px;
+	height: 20px;
+	background: url(../images/review.gif) 0px -240px no-repeat;
+}
+
+div.score7 {
+	width: 60px;
+	height: 20px;
+	background: url(../images/review.gif) 0px -270px no-repeat;
+}
+
+div.score8 {
+	width: 60px;
+	height: 20px;
+	background: url(../images/review.gif) 0px -300px no-repeat;
+}
+
+div.score9 {
+	width: 60px;
+	height: 20px;
+	background: url(../images/review.gif) 0px -330px no-repeat;
+}
+
+div.score10 {
+	width: 60px;
+	height: 20px;
+	background: url(../images/review.gif) 0px -360px no-repeat;
+}
+
+/* ---------- hotPetCategory ---------- */
+
+div.hotPetCategory {
+	width: 216px;
+	padding: 0px 6px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: solid 1px #e4e4e4;
+}
+
+div.hotPetCategory dl {
+	width: 216px;
+	line-height: 30px;
+	float: left;
+	_float: none;
+	border-bottom: solid 1px #f1f1f1;
+}
+
+div.hotPetCategory dl.last {
+	border-bottom: none;
+}
+
+div.hotPetCategory dt a {
+	font-family: "Microsoft YaHei";
+	color: #ff0000;
+	font-size:14px;
+}
+
+div.hotPetCategory dd{
+	width: 100px;
+	float: left;
+	padding-right: 4px;
+}
+
+/* ---------- hotPet ---------- */
+
+div.hotPet {
+	width: 228px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: solid 1px #e4e4e4;
+}
+
+div.hotPet .title {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+	font-weight: bold;
+	border-bottom: solid 1px #e4e4e4;
+	background-color: #f1f1f1;
+}
+
+div.hotPet li {
+	line-height: 24px;
+	padding: 0px 10px;
+	white-space: nowrap;
+	border-bottom: solid 1px #f1f1f1;
+}
+
+div.hotPet li.last {
+	border-bottom: none;
+}
+
+div.hotPet li a {
+	color: #2953a6;
+}
+
+div.hotPet li strong {
+	color: #666666;
+	font-weight: bold;
+}
+
+div.hotPet li em {
+	color: #ceaa00;
+	font-weight: bold;
+	font-style: normal;
+}
+
+div.hotPet li div {
+	height: 24px;
+}
+
+div.hotPet li div div {
+	height: 24px;
+	float: left;
+	margin-right: 6px;
+}
+
+/* ---------- hotPet ---------- */
+
+div.hotPet {
+	width: 208px;
+	padding: 0px 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: solid 1px #e4e4e4;
+	background-color: #f8f8f8;
+}
+
+div.hotPet .title {
+	height: 30px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+div.hotPet li {
+	height: 70px;
+}
+
+div.hotPet li img {
+	width: 60px;
+	height: 60px;
+	display: block;
+	float: left;
+	padding: 1px;
+	border: 1px solid #e4e4e4;
+	background-color: #ffffff;
+}
+
+div.hotPet li a {
+	width: 130px;
+	height: 40px;
+	line-height: 20px;
+	display: block;
+	float: right;
+	overflow: hidden;
+}
+
+div.hotPet li span {
+	width: 128px;
+	height: 20px;
+	line-height: 20px;
+	display: block;
+	float: right;
+	color: #d80000;
+	overflow: hidden;
+}
+
+div.hotPet .clearhotPet {
+	line-height: 30px;
+	color: #999999;
+	outline: none;
+	blr: expression(this.hideFocus = true);
+}
+
+/* ---------- petList ---------- */
+
+div.petList .filter {
+	margin-bottom: 4px;
+}
+
+div.petList .filter .title {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+	color: #6d6d6d;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "Microsoft YaHei";
+	border: solid 1px #e4e4e4;
+}
+
+div.petList .filter .content {
+	padding: 0px 10px;
+	border-left: solid 1px #e4e4e4;
+	border-right: solid 1px #e4e4e4;
+}
+
+div.petList .filter dl {
+	width: 678px;
+	line-height: 30px;
+	position: relative;
+	overflow: hidden;
+	*zoom: 1;
+	border-bottom: dotted 1px #e8e8e8;
+}
+
+div.petList .filter dl.last {
+	border-bottom: none;
+}
+
+div.petList .filter dt {
+	width: 80px;
+	float: left;
+	margin-right: 8px;
+	text-align: right;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor: default;
+}
+
+div.petList .filter dd {
+	float: left;
+	margin-right: 12px;
+	color: #1859a5;
+	white-space: nowrap;
+}
+
+div.petList .filter dd a {
+	line-height: 30px;
+	padding: 2px 4px;
+	color: #2953a5;
+}
+
+div.petList .filter dd a.current {
+	color: #ffffff;
+	background-color: #ff6600;
+}
+
+div.petList .filter .moreOption {
+	width: 12px;
+	height: 30px;
+	line-height: 30px;
+	display: none;
+	margin-right: 0px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	color: #7d7d7d;
+	cursor: pointer;
+	overflow: hidden;
+	background: url(../images/Pet.gif) -210px -270px no-repeat;
+}
+
+div.petList .filter dd.close {
+	background: url(../images/Pet.gif) -210px -300px no-repeat;
+}
+
+div.petList .filter .moreFilter {
+	line-height: 6px;
+	background: url(../images/Pet.gif) 0px 0px repeat-x;
+}
+
+div.petList .filter .moreFilter a {
+	width: 108px;
+	height: 27px;
+	line-height: 22px;
+	display: block;
+	margin: 0px auto;
+	text-align: center;
+	outline: none;
+	blr: expression(this.hideFocus = true);
+	background: url(../images/Pet.gif) 0px -480px no-repeat;
+}
+
+div.petList .filter .moreFilter .close {
+	background: url(../images/Pet.gif) -120px -480px no-repeat;
+}
+
+div.petList .bar {
+	margin-bottom: 10px;
+	color: #434343;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: solid 1px #dddddd;
+}
+
+div.petList .bar .layout {
+	height: 26px;
+	line-height: 26px;
+	padding: 8px 0px 8px 8px;
+	border-bottom: dotted 1px #dddddd;
+	background: url(../images/Pet.gif) 0px -30px repeat-x;
+}
+
+div.petList .bar .layout label {
+	float: left;
+	margin-right: 8px;
+}
+
+div.petList .bar .layout a {
+	float: left;
+	padding: 1px;
+	margin-right: 10px;
+	outline: none;
+	blr: expression(this.hideFocus = true);
+	cursor: pointer;
+	border: solid 1px #cccccc;
+	background-color: #ffffff;
+}
+
+div.petList .bar .layout a:hover {
+	border: solid 1px #f9ad75;
+}
+
+div.petList .bar .layout a.current {
+	border: solid 1px #f9ad75;
+}
+
+div.petList .bar .layout a span {
+	min-width: 22px;
+	_width: 22px;
+	_white-space: nowrap;
+	height: 22px;
+	line-height: 22px;
+	display: block;
+	margin-right: 0px;
+	text-align: center;
+	background: url(../images/Pet.gif) 0px -90px repeat-x;
+}
+
+div.petList .bar .layout a.current span {
+	background: url(../images/Pet.gif) 0px -120px repeat-x;
+}
+
+div.petList .bar .layout .tableType span {
+	background: url(../images/Pet.gif) 0px -510px no-repeat;
+}
+
+div.petList .bar .layout .listType span {
+	background: url(../images/Pet.gif) -60px -510px no-repeat;
+}
+
+div.petList .bar .layout .currentTable {
+	border: solid 1px #f9ad75;
+}
+
+div.petList .bar .layout .currentTable span {
+	background: url(../images/Pet.gif) -30px -510px no-repeat;
+}
+
+div.petList .bar .layout .currentList {
+	border: solid 1px #f9ad75;
+}
+
+div.petList .bar .layout .currentList span {
+	background: url(../images/Pet.gif) -90px -510px no-repeat;
+}
+
+div.petList .bar .layout .page {
+	float: right;
+	margin-right: 0px;
+}
+
+div.petList .bar .layout .page span {
+	padding: 0px 6px;
+}
+
+div.petList .bar .sort {
+	height: 26px;
+	padding: 8px 0px 8px 8px;
+	border-bottom: dotted 1px #dddddd;
+}
+
+div.petList .bar .sort a:hover {
+	color: #ff6600;
+	background-color: #eeeeee;
+}
+
+div.petList .bar .sort a.current {
+	color: #000000;
+	background-color: #eeeeee;
+}
+
+div.petList .bar .sort .orderSelect {
+	float: left;
+	cursor: default;
+}
+
+div.petList .bar .sort .orderSelect span {
+	width: 100px;
+	height: 22px;
+	line-height: 22px;
+	display: block;
+	padding: 0px 6px;
+	border: solid 1px #cccccc;
+	background: url(../images/Pet.gif) right -330px no-repeat;
+}
+
+div.petList .bar .sort .popupMenu {
+	width: 112px;
+	display: none;
+	position: absolute;
+	-webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+}
+
+div.petList .bar .sort .popupMenu ul {
+	z-index: 100;
+	padding: 1px;
+}
+
+div.petList .bar .sort .popupMenu li {
+	height: 24px;
+	vertical-align: middle;
+}
+
+div.petList .bar .sort .popupMenu a {
+	height: 24px;
+	line-height: 24px;
+	*line-height: 25px;
+	padding: 0px 5px;
+	display: block;
+	float: none;
+	overflow: hidden;
+	outline: none;
+	blr: expression(this.hideFocus = true);
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+}
+
+div.petList .bar .sort .asc, div.petList .bar .sort .currentAsc, div.petList .bar .sort .desc, div.petList .bar .sort .currentDesc  {
+	height: 22px;
+	line-height: 22px;
+	display: block;
+	float: left;
+	padding: 0px 15px 0px 6px;
+	outline: none;
+	blr: expression(this.hideFocus = true);
+	border-top: solid 1px #cccccc;
+	border-right: solid 1px #cccccc;
+	border-bottom: solid 1px #cccccc;
+}
+
+div.petList .bar .sort .asc {
+	background: url(../images/Pet.gif) right -360px no-repeat;
+}
+
+div.petList .bar .sort .currentAsc {
+	background: url(../images/Pet.gif) right -390px no-repeat;
+}
+
+div.petList .bar .sort .desc {
+	background: url(../images/Pet.gif) right -420px no-repeat;
+}
+
+div.petList .bar .sort .currentDesc {
+	background: url(../images/Pet.gif) right -450px no-repeat;
+}
+
+div.petList .bar .sort input {
+	width: 38px;
+	height: 22px;
+	line-height: 22px;
+	padding: 0px;
+	margin: 0px 4px;
+	#margin: -1px 4px;
+	_margin: -1px 4px;
+	text-align: center;
+	vertical-align: middle;
+	ime-mode: disabled;
+	border: 1px solid #cccccc;
+}
+
+div.petList .bar .sort input:disabled {
+	background-color: #ffffff;
+}
+
+div.petList .bar .sort button {
+	height: 24px;
+	line-height: 24px;
+	display: none;
+	padding: 0px 4px;
+	color: #666666;
+	font-size: 12px;
+	vertical-align: middle;
+	cursor: pointer;
+	_overflow-x: visible;
+	border: 1px solid #cccccc;
+	background-color: #f6f6f6;
+}
+
+div.petList .bar .tag {
+	height: 30px;
+	line-height: 30px;
+	padding: 0px 8px;
+}
+
+div.petList .result dl {
+	line-height: 30px;
+	padding: 10px;
+}
+
+div.petList .result dt {
+	color: #843d11;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "Microsoft YaHei";
+}
+
+div.petList .table {
+	padding: 0px 2px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: solid 1px #dddddd;
+}
+
+div.petList .table li {
+	width: 176px;
+	height: 246px;
+	line-height: 20px;
+	float: left;
+	overflow: hidden;
+	border-bottom: solid 1px #e4e4e4;
+}
+
+div.petList .table li.last {
+	border-bottom: none;
+}
+
+div.petList .table li a {
+	height: 240px;
+	display: block;
+	padding: 3px;
+}
+
+div.petList .table li a:hover {
+	background-color: #f6f6f6;
+}
+
+div.petList .table span {
+	display: block;
+}
+
+div.petList .table .price {
+	line-height: 30px;
+	color: #c4161c;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+div.petList .table .price del {
+	margin-left: 6px;
+	color: #a5a5a5;
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: line-through;
+}
+
+div.petList .list {
+	margin-bottom: 10px;
+}
+
+div.petList .list li {
+	height: 170px;
+	line-height: 22px;
+	padding: 5px 0px;
+	overflow: hidden;
+	border-bottom: solid 1px #e4e4e4;
+}
+
+div.petList .list img {
+	float: left;
+}
+
+div.petList .list span {
+	display: block;
+	float: left;
+	padding-left: 20px;
+}
+
+div.petList .list .price {
+	line-height: 30px;
+	float: right;
+	color: #c4161c;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+div.petList .list .price del {
+	margin-left: 10px;
+	color: #a5a5a5;
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: line-through;
+}
+
+/* ---------- petContent ---------- */
+
+div.petContent .petImage {
+	width: 302px;
+	height: 370px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+div.petContent .petImage .medium {
+	width: 300px;
+	height: 300px;
+	display: block;
+	margin-bottom: 4px;
+	border: 1px solid #e4e4e4;
+}
+
+div.petContent .petImage .prev {
+	width: 10px;
+	height: 62px;
+	display: block;
+	float: left;
+	margin-right: 5px;
+	outline: none;
+	blr: expression(this.hideFocus = true);
+	border: 1px solid #e4e4e4;
+	background: url(../images/Pet.gif) -120px -510px no-repeat;
+}
+
+div.petContent .petImage .prev:hover {
+	background-color: #f1f1f1;
+}
+
+div.petContent .petImage .next {
+	width: 10px;
+	height: 62px;
+	display: block;
+	float: right;
+	margin-left: 4px;
+	outline: none;
+	blr: expression(this.hideFocus = true);
+	border: 1px solid #e4e4e4;
+	background: url(../images/Pet.gif) -180px -510px no-repeat;
+}
+
+div.petContent .petImage .next:hover {
+	background-color: #f1f1f1;
+}
+
+div.petContent .petImage .disabled {
+	cursor: default;
+	background-color: #f1f1f1;
+}
+
+div.petContent .petImage a[class="prev disabled"] {
+	background: url(../images/Pet.gif) -150px -510px no-repeat #f4f4f4;
+}
+
+div.petContent .petImage a[class="next disabled"] {
+	background: url(../images/Pet.gif) -210px -510px no-repeat #f4f4f4;
+}
+
+div.petContent .petImage .scrollable {
+	width: 268px;
+	height: 64px;
+	float: left;
+	position: relative;
+    overflow: hidden;
+}
+
+div.petContent .petImage .scrollable .items {
+	width: 20000em;
+	position: absolute;
+}
+
+div.petContent .petImage .scrollable a {
+	display: block;
+	float: left;
+	padding: 1px;
+	margin-right: 4px;
+	outline: none;
+	blr: expression(this.hideFocus = true);
+	border: 1px solid #e4e4e4;
+}
+
+div.petContent .petImage .scrollable a.current {
+	padding: 0px;
+	border: 2px solid #ff9900;
+}
+
+div.petContent .petImage .scrollable img {
+	width: 60px;
+	height: 60px;
+	display: block;
+}
+
+div.petContent .petImage .zoomPad {
+	float: left;
+	position: relative;
+	z-index: 99;
+	cursor: crosshair;
+}
+
+div.petContent .petImage .zoomPreload {
+	width: 90px;
+	height: 43px;
+	* width: 100px;
+	* height: 49px;
+	padding: 8px;
+	text-align: center;
+	color: #333333;
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+	filter: alpha(opacity = 80);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 110;
+	border: 1px solid #e4e4e4;
+	background-color: white;
+}
+
+div.petContent .petImage .zoomPup {
+	overflow: hidden;
+	-moz-opacity: 0.6;
+	opacity: 0.6;
+	filter: alpha(opacity = 60);
+	position: absolute;
+	z-index: 120;
+	cursor: crosshair;
+	border: 1px solid #e4e4e4;
+	background-color: #ffffff;
+}
+
+div.petContent .petImage .zoomOverlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 101;
+	display: none;
+	background: #ffffff;
+}
+
+div.petContent .petImage .zoomWindow {
+	height: auto;
+	position: absolute;
+	left: 110%;
+	top: 40px;
+	z-index: 110;
+	background: #ffffff;
+}
+
+div.petContent .petImage .zoomWrapper {
+	position: relative;
+	z-index: 110;
+	border: 1px solid #e4e4e4;
+}
+
+div.petContent .petImage .zoomWrapperTitle {
+	width: 100%;
+	height: 18px;
+	line-height: 18px;
+	color: #ffffff;
+	text-align: center;
+	font-size: 10px;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 120;
+	-moz-opacity: 0.6;
+	opacity: 0.6;
+	display: block;
+	filter: alpha(opacity = 60);
+	background: #999999;
+}
+
+div.petContent .petImage .zoomWrapperImage {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	z-index: 110;
+}
+
+div.petContent .petImage .zoomWrapperImage img {
+	display: block;
+	position: absolute;
+	z-index: 101;
+	border: 0px;
+}
+
+div.petContent .petImage .zoomIframe {
+	z-index: -1;
+	filter: alpha(opacity=0);
+	-moz-opacity: 0.80;
+	opacity: 0.80;
+	position: absolute;
+	display: block;
+}
+
+div.petContent .name {
+	width: 398px;
+	line-height: 26px;
+	float: right;
+	clear: right;
+	color: #414141;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+div.petContent .sn {
+	width: 398px;
+	float: right;
+	clear: right;
+	color: #616161;
+	border-bottom: 1px dotted #dddddd;
+}
+
+div.petContent .sn div {
+	height: 24px;
+	line-height: 24px;
+	float: left;
+	margin-right: 10px;
+}
+
+div.petContent .info {
+	width: 398px;
+	line-height: 24px;
+	float: right;
+	clear: right;
+}
+
+div.petContent .info dt {
+	width: 54px;
+	float: left;
+	margin-right: 6px;
+	color: #888;
+	white-space: nowrap;
+}
+
+div.petContent .info dd {
+	width: 338px;
+	float: left;
+	color: #666666;
+}
+
+div.petContent .info strong {
+	color: #ef0101;
+	font-size: 16px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+div.petContent .info del {
+	color: #a5a5a5;
+	text-decoration: line-through;
+}
+
+div.petContent .info span {
+	color: #ff6600;
+}
+
+div.petContent .info a {
+	padding: 1px 2px;
+	color: #ffffff;
+	background-color: #f07373;
+}
+
+div.petContent .action {
+	width: 392px;
+	line-height: 34px;
+	float: right;
+	clear: right;
+	padding: 2px;
+	color: #333333;
+	border: 1px solid #e7dbb1;
+	background-color: #fffee6;
+}
+
+div.petContent .action:hover {
+	border-color: #df9a07;
+}
+
+div.petContent .specification .title {
+	height: 24px;
+	line-height: 24px;
+	display: none;
+	padding-left: 4px;
+	color: #666666;
+	background-color: #f5efdc;
+}
+
+div.petContent .specification dl {
+	line-height: 24px;
+	clear: both;
+	padding: 4px 0px;
+}
+
+div.petContent .specification dt {
+	width: 60px;
+	float: left;
+	margin-right: 10px;
+	text-align: right;
+	color: #888;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+div.petContent .specification dd {
+	float: left;
+	margin-right: 4px;
+	color: #666666;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+div.petContent .specification a {
+	display: block;
+	float: left;
+	position: relative;
+	outline: none;
+	blr: expression(this.hideFocus = true);
+}
+
+div.petContent .specification a span {
+	width: 13px;
+	height: 13px;
+	display: none;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	overflow: hidden;
+	background: url(../images/Pet.gif) 0px -540px no-repeat;
+}
+
+div.petContent .specification .text {
+	height: 24px;
+	line-height: 24px;
+	padding: 0px 8px;
+	border-top: 1px solid #eeeeee;
+	border-right: 1px solid #bbbbbb;
+	border-bottom: 1px solid #bbbbbb;
+	border-left: 1px solid #eeeeee;
+	background-color: #ffffff;
+}
+
+div.petContent .specification .text:hover {
+	border-color: #ff9900;
+}
+
+div.petContent .specification .image {
+	width: 26px;
+	height: 26px;
+	padding: 1px;
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+}
+
+div.petContent .specification .image:hover {
+	border-color: #ff9900;
+}
+
+div.petContent .specification .image img {
+	width: 26px;
+	height: 26px;
+	display: block;
+}
+
+div.petContent .specification .selected {
+	border: 1px solid #f08b02;
+}
+
+div.petContent .specification .selected span {
+	display: block;
+}
+
+div.petContent .specification .locked {
+	color: #d6d6d6;
+	cursor: not-allowed;
+	border-color: #bbbbbb;
+	border-style: dotted;
+}
+
+div.petContent .PetNotify {
+	height: 24px;
+	line-height: 24px;
+	padding: 10px 0px;
+	display: none;
+	border-bottom: 1px solid #faeac7;
+}
+
+div.petContent .PetNotify dt {
+	width: 60px;
+	float: left;
+	margin-right: 10px;
+	color: #888;
+	text-align: right;
+	white-space: nowrap;
+}
+
+div.petContent .PetNotify dd {
+	float: left;
+	margin-right: 4px;
+	color: #666666;
+}
+
+div.petContent .PetNotify input {
+	width: 122px;
+	height: 24px;
+	line-height: 24px;
+	padding: 0px 2px;
+	border: 1px solid #dbdbdb;
+}
+
+div.petContent .quantity {
+	height: 18px;
+	line-height: 18px;
+	padding: 10px 0px;
+	border-bottom: 1px solid #faeac7;
+}
+
+div.petContent .quantity dt {
+	width: 60px;
+	float: left;
+	margin-right: 10px;
+	color: #888;
+	text-align: right;
+	white-space: nowrap;
+}
+
+div.petContent .quantity dd {
+	float: left;
+	margin-right: 4px;
+	color: #666;
+}
+
+div.petContent .quantity input {
+	width: 50px;
+	height: 18px;
+	line-height: 18px;
+	float: left;
+	padding: 0px 2px;
+	text-align: center;
+	ime-mode: disabled;
+	border: 1px solid #dbdbdb;
+}
+
+div.petContent .quantity div {
+	height: 18px;
+	float: left;
+	padding-left: 2px;
+}
+
+div.petContent .quantity .increase {
+	width: 18px;
+	height: 7px;
+	display: block;
+	clear: both;
+	margin-bottom: 2px;
+	cursor: pointer;
+	overflow: hidden;
+	border: 1px solid #dbdbdb;
+	background: url(../images/Pet.gif) 0px -570px #f9f9f9 no-repeat;
+}
+
+div.petContent .quantity .decrease {
+	width: 18px;
+	height: 7px;
+	display: block;
+	clear: both;
+	cursor: pointer;
+	overflow: hidden;
+	border: 1px solid #dbdbdb;
+	background: url(../images/Pet.gif) -30px -570px #f9f9f9 no-repeat;
+}
+
+div.petContent .buy {
+	height: 36px;
+	line-height: 36px;
+	padding: 8px 10px 8px 70px;
+	border-top: 2px solid #fff;
+}
+
+div.petContent .buy .addPetNotify {
+	width: 127px;
+	height: 36px;
+	line-height: 34px;
+	float: left;
+	padding-left: 20px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Microsoft YaHei";
+	cursor: pointer;
+	border: none;
+	background: url(../images/addCart.gif) 0px -600px no-repeat;
+}
+
+div.petContent .buy .addCart {
+	width: 127px;
+	height: 36px;
+	line-height: 34px;
+	float: left;
+	padding-left: 20px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Microsoft YaHei";
+	cursor: pointer;
+	border: none;
+	background: url(../images/addCart.gif) 0px -600px no-repeat;
+}
+
+div.petContent .buy a {
+	float: right;
+	color: #666;
+}
+
+div.petContent .bar {
+	height: 36px;
+	clear: both;
+	margin-bottom: 10px;
+}
+
+div.petContent .bar ul {
+	width: 708px;
+	height: 32px;
+	padding: 1px 0px;
+	border: 1px solid #ddd;
+	background: url(../images/Pet.gif) 0px -150px repeat-x;
+}
+
+div.petContent .bar li {
+	height: 32px;
+	line-height: 32px;
+	float: left;
+	padding: 0px 20px;
+	border-right: 1px solid #ddd;
+	border-left: 1px solid #fff;
+}
+
+div.petContent .bar li.current {
+	background: url(../images/Pet.gif) 0px -210px repeat-x;
+}
+
+div.petContent .bar li.current a {
+	color: #cc0000;
+	font-weight: bold;
+}
+
+div.petContent .brief {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 1px;
+	margin-bottom: 10px;
+}
+
+div.petContent .brief th {
+	width: 100px;
+	height: 30px;
+	padding: 0px 6px;
+	color: #888;
+	font-weight: normal;
+	text-align: right;
+	background-color: #eee;
+}
+
+div.petContent .brief td {
+	padding: 0px 6px;
+	color: #999;
+	background-color: #f6f6f6;
+}
+
+div.petContent .introduction .title, div.petContent .parameter .title {
+	height: 29px;
+	line-height: 29px;
+	margin-bottom: 10px;
+	border-top: 1px solid #aaa8a9;
+	background-color: #d3d3d3;
+}
+
+div.petContent .introduction .title strong, div.petContent .parameter .title strong {
+	display: block;
+	float: left;
+	padding: 0px 20px;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "Microsoft YaHei";
+	background-color: #aaa8a9;
+}
+
+div.petContent .introduction {
+	width: 710px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+div.petContent .introduction strong {
+	font-weight: bold;
+}
+
+div.petContent .introduction em {
+	font-style: italic;
+}
+
+div.petContent .parameter {
+	margin-bottom: 10px;
+}
+
+div.petContent .parameter table {
+	width: 100%;
+	line-height: 30px;
+}
+
+div.petContent .parameter th {
+	width: 100px;
+	padding: 0px 10px;
+	font-weight: normal;
+	text-align: right;
+	border: 1px solid #e4e4e4;
+}
+
+div.petContent .parameter td {
+	padding: 0px 10px;
+	border: 1px solid #e4e4e4;
+}
+
+div.petContent .parameter .group {
+	font-size: 14px;
+	text-align: left;
+	background-color: #f1f1f1;
+}
+
+div.petContent .review {
+	padding: 1px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #e4e4e4;
+}
+
+div.petContent .review .title {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "Microsoft YaHei";
+	background-color: #f1f1f1;
+}
+
+div.petContent .review .content {
+	padding: 0px 10px;
+}
+
+div.petContent .review .score {
+	width: 120px;
+	height: 60px;
+	float: left;
+	padding-top: 20px;
+	margin: 10px 20px 10px 0px;
+	color: #808080;
+}
+
+div.petContent .review .score strong {
+	display: block;
+	float: left;
+	margin-right: 4px;
+	color: #ff6600;
+	font-size: 30px;
+	font-weight: normal;
+	font-family: "Microsoft YaHei";
+}
+
+div.petContent .review .score div {
+	float: left;
+}
+
+div.petContent .review .score div div {
+	height: 18px;
+	line-height: 18px;
+	clear: both;
+	white-space: nowrap;
+}
+
+div.petContent .review .graph {
+	height: 60px;
+	width: 400px;
+	float: left;
+	padding: 10px 10px 10px 0px;
+	margin: 10px 0px;
+	border-right: 1px solid #e4e4e4;
+}
+
+div.petContent .review .graph span {
+	height: 21px;
+	display: block;
+}
+
+div.petContent .review .graph em {
+	width: 28px;
+	height: 21px;
+	line-height: 16px;
+	display: block;
+	float: right;
+	margin-right: 26px;
+	color: #ffffff;
+	text-align: center;
+	font-style: normal;
+	background: url(../images/review.gif) 0px -30px no-repeat;
+}
+
+div.petContent .review .graph div {
+	width: 400px;
+	height: 14px;
+	background: url(../images/review.gif) 0px 0px no-repeat;
+}
+
+div.petContent .review .graph li {
+	width: 80px;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	color: #808080;
+	text-align: center;
+}
+
+div.petContent .review .handle {
+	height: 40px;
+	float: left;
+	padding-top: 34px;
+	padding-left: 20px;
+	margin: 10px 0px;
+}
+
+div.petContent .review .handle a {
+	padding: 4px 8px;
+	color: #ffffff;
+	font-weight: bold;
+	white-space: nowrap;
+	background-color: #2372cf;
+}
+
+div.petContent .review table {
+	width: 100%;
+	line-height: 24px;
+	clear: both;
+	border-top: 1px solid #e4e4e4;
+}
+
+div.petContent .review table th {
+	padding: 6px 0px;
+	color: #888;
+	font-weight: normal;
+	text-align: left;
+	border-bottom: 1px dotted #e4e4e4;
+}
+
+div.petContent .review table td {
+	width: 160px;
+	padding-left: 10px;
+	border-bottom: 1px dotted #e4e4e4;
+}
+
+div.petContent .review span {
+	color: #999;
+}
+
+div.petContent .review p {
+	padding: 10px 0px;
+	color: #888;
+}
+
+div.petContent .consultation {
+	padding: 1px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #e4e4e4;
+}
+
+div.petContent .consultation .title {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "Microsoft YaHei";
+	background-color: #f1f1f1;
+}
+
+div.petContent .consultation .content {
+	padding: 0px 10px;
+}
+
+div.petContent .consultation .content li {
+	line-height: 24px;
+	padding: 10px 0px;
+	color: #888;
+	border-bottom: 1px dotted #e4e4e4;
+}
+
+div.petContent .consultation .content li.last {
+	border-bottom: none;
+}
+
+div.petContent .consultation .content li .arrow {
+	width: 0px;
+	height: 0px;
+	margin-left: 20px;
+	overflow: hidden;
+	border: 6px solid;
+	border-color: #fff #fff #f1f1f1 #fff;
+}
+
+div.petContent .consultation .content li ul {
+	padding: 6px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #f1f1f1;
+}
+
+div.petContent .consultation .content li ul li {
+	padding: 0px;
+	border-bottom: none;
+}
+
+div.petContent .consultation .content span {
+	color: #999;
+	white-space: nowrap;
+}
+
+div.petContent .consultation .content p {
+	padding: 10px 0px;
+	color: #999;
+}
